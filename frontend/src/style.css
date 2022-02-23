@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font: 1.4rem "Century Gothic", Futura, sans-serif;
+}
+
+.resultado {
+    display: flex;
+    justify-content: space-around;
+}
+
+.resultado img {
+    width: 40rem;
+    height: 40rem;
+}
+
+.selector {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    padding: 2rem;
+}
+
+.selector-jugar {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.selector-opciones {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem;
+}
+
+.selector-opciones__button img {
+    width: 4rem;
+    height: 4rem;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.selector-opciones__button p {
+    padding: 0.5rem;
+}
